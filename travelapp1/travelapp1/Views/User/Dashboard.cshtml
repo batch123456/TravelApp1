@@ -1,0 +1,126 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+    Layout = "/Views/Shared/_UserDashboard.cshtml";
+}
+
+
+@*<nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">iMyTravel</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Page 1</a></li>
+                <li><a href="#">Page 2</a></li>
+            </ul>
+            <form class="navbar-form navbar-left" action="/action_page.php">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search" name="search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                 <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">User
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">View Profile</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+        </div>
+    </nav>*@
+
+
+
+
+<div class="container">
+    <div class="nav_bar">
+        <div class="logo">
+            <i class="fa-solid fa-route"></i>
+            <h4>iMyTravel</h4>
+        </div>
+
+        <div class="menu_list">
+            <a href="#">Home</a>
+
+            <a href="">Profile</a>
+
+            <a href="#">Contact Us</a>
+
+            <button class="lg_btn">Logout</button>
+        </div>
+    </div>
+
+
+
+</div>
+    </header>
+
+<section class="home_section">
+    <!-- Side navigation -->
+    <div class="sidenav">
+        @*@<a href="#">About</a>*@
+        <a href="#">Explore</a>
+        <a href="/User/MyAlbums">My albums</a>
+        <a href="/Admin/Experience">Experience</a>
+    </div>
+
+
+
+    <div class="overlay">
+        <div class="container" style="background-image: url(https://cdn.worldnomads.net/Media/Default/shareimages/home-1200x630.jpg);background-repeat:no-repeat ">
+
+            <div class="home">
+
+                <h1><span>meet</span> people <br>discover <span>places</span> <br><span>enjoy</span> time</h1>
+                <div class="home_buttons">
+                    <li>
+                        <a href="MMMMMMYYYYYYAAAAAALLLLLLLBBBBBUUUUMMMMMM">
+                            <button class="btn1">Add your experience</button>
+                        </a>
+                    </li>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services">
+    <div class="container">
+        <div class="title">
+            <h1>Visit India's best <span>places</span></h1>
+            <span class="slogan">enjoy your trip.</span>
+        </div>
+        <div class="services_boxes">
+            <div class="box" style="background-image: url(https://image.shutterstock.com/image-photo/beautiful-baga-beach-waves-lapping-260nw-2014962062.jpg) ">
+
+                <i class="fa-solid fa-umbrella-beach" style="color:yellow">Beaches</i>
+                <a href="https://www.timeout.com/things-to-do/best-beaches-in-the-world"><p style="color:white">“There’s no place like home. Except the beach.”</p></a>
+            </div>
+
+            <div class="services_boxes">
+                <div class="box" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c5/Giovanni_Paolo_Pannini_002.jpg) ">
+                    <i class="fa-solid fa-gopuram" style="color:orange">Heritage</i>
+                    <a href="https://www.incredibleindia.org/content/incredibleindia/en/destinations/world-heritage.html">
+                        <p style="color:white">“Our heritage makes us unique.”</p>
+                    </a>
+                </div>
+
+
+                <div class="box" style="background-image: url(https://www.holidify.com/images/cmsuploads/compressed/800px-River_Beas,_Manali_20181126230545.jpg)">
+                    <i class="fa-solid fa-mountain-sun" style="color:forestgreen">Hills</i>
+                    <a href="https://www.holidify.com/collections/hill-stations-of-india">
+                        <p style="color:white"> “He who climbs upon the highest mountains laughs at all tragedies, real or imaginary.”</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+</section>
